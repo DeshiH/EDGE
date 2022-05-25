@@ -1,0 +1,148 @@
+@media screen and (max-width: 980px) {
+    #contenedor {
+        width: 90%;
+    }
+    #contenido {
+        width: 60%;
+    }
+    #barra_lateral {
+        width: 30%;
+    }
+}
+
+@media (max-width:100px) {
+    .iconos {
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: 95% 5% 5%;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width:500px) {
+    .iconos {
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: 95% 5% 5%;
+        margin-right: 40px;
+    }
+}
+
+
+/*Esto es la parte de notificacion*/
+
+@media (max-width:100px) {
+    .paginas {
+        position: absolute;
+        justify-content: center;
+        margin-top: 18%;
+        margin-left: 29%;
+    }
+}
+
+@media (min-width:500px) {
+    .paginas {
+        position: absolute;
+        justify-content: center;
+        margin-top: 18%;
+        margin-left: 29%;
+    }
+}
+
+span {
+    padding: 10px;
+    margin-top: 1px;
+}
+
+.icono {
+    /*Logo de microsoft*/
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search {
+    /*Lupa*/
+    position: absolute;
+    border-radius: 2px 40px 50px;
+    background-color: aqua;
+    display: flex;
+    height: 43px;
+    width: 10%;
+    justify-content: end;
+    margin-top: -343.8px;
+    margin-left: 64%;
+}
+
+.web {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+input::placeholder {
+    text-align: start;
+}
+
+
+/*Esta es la barra de busqueda*/
+
+input {
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50px;
+    text-align: start;
+}
+
+@media (max-width:100px) {
+    .intereses {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        grid-template-columns: 7% 7% 7% 7% 7% 7% 7% 7% 7%;
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:500px) {
+    .intereses {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        grid-template-columns: 7% 7% 7% 7% 7% 7% 7% 7% 7%;
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:100px) {
+    .contorno1 {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: -49px;
+        margin-left: 70%;
+    }
+    .contorno2 {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: -49px;
+        margin-left: 80%;
+    }
+}
+
+@media (min-width:500px) {
+    .contorno1 {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: -49px;
+        margin-left: 70%;
+    }
+    .contorno2 {
+        display: grid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: -49px;
+        margin-left: 80%;
+    }
+}
